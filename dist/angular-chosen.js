@@ -118,6 +118,8 @@
                   return startLoading();
                 } else {
                   empty = isEmpty(newVal);
+                  chosen = element.data('chosen');
+                  chosen.searchable_model = newVal;
                   stopLoading();
                   return updateMessage();
                 }
