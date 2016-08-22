@@ -2,7 +2,7 @@
   "name": "angular-chosen-localytics",
   "filename": "chosen.js",
   "main": "dist/angular-chosen.js",
-  "version": "1.3.0",
+  "version": "1.4.3",
   "description": "Angular Chosen directive is an AngularJS Directive that brings the Chosen jQuery in a Angular way",
   "homepage": "http://github.com/leocaseiro/angular-chosen",
   "repository": {
@@ -40,12 +40,13 @@
     "slobo",
     "lpsBetty",
     "nike-17",
-    "vstene"
+    "vstene",
+    "frnan"
   ],
   "dependencies": {
-    "jquery": "^2.0.3",
-    "chosen-npm": "^1.4.2",
-    "angular": "^1.4.9"
+    "angular": "^1.5.7",
+    "chosen-js": "^1.6.1",
+    "jquery": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/leocaseiro/angular-chosen/issues"

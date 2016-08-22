@@ -1,14 +1,14 @@
 <html ng-app="chosenExampleApp">
 <head>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
   <script src="../dist/angular-chosen.min.js"></script>
   <script src="index.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css" />
   <link rel="stylesheet" type="text/css" href="../chosen-spinner.css" />
   <style>
     select.localytics-chosen {
@@ -132,6 +132,12 @@
     </select>
   </div>
 
+  <h2>#59 - Don't scroll to top when selecting multiple items with ctrl</h2>
+  <div>
+    <select multiple chosen  ng-model="state" ng-options="s for s in states" style="width:200px;">
+      <option value=""></option>
+    </select>
+  </div>
 
 </body>
 
